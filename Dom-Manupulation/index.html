@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dom learning</title>
+</head>
+<body>
+
+<button id="button">click</button>
+
+</body>
+
+<script>
+
+    document.getElementById("button").addEventListener("click", (e) => {
+        console.log("event is", e);
+        console.log("timestamp", e.timeStamp);
+        alert("hello");
+    }, false)
+
+</script>
+</html>

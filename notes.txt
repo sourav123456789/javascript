@@ -1,0 +1,3 @@
+conversion :
+if string is first , then rest all is treated as string
+if string is at the last , then first conversion will happen

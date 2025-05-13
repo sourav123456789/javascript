@@ -1,3 +1,5 @@
+
+
 let nums1 = [1 , 3 , 2 , 5];
 let nums2 = [5 , 5 , 6 , 7];
 let nums3 = [...nums1 , ...nums2];
@@ -36,5 +38,3 @@ function updateObjectAtIndex(arr , index , updatedFields) {
 }
 
 console.log(updateObjectAtIndex(arr , 0 , {name : "sourav11"}));
-
-
